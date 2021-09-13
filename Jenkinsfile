@@ -20,9 +20,9 @@ pipeline {
                         }
                 }
                 steps {
-			echo "Hello"
-                        }
-        }
+		            	echo "Hello"
+                       }
+        }   
         stage('Four') {
                 steps {
                         echo 'Hi, this is IBM'
